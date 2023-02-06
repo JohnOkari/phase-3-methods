@@ -20,5 +20,5 @@ def add(num1, num2)
 end
 
 def halve(num)
-    num.is_a?(Integer)? num/2: nil
+    num.class == Integer ? num / 2 : nil
 end
